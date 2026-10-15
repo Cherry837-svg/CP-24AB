@@ -220,7 +220,17 @@
             .battery-info {
                 font-size: 2.8rem;
             }
-        }/* Телефон: вертикальное положение */
+        }/* АЛЬБОМНЫЙ РЕЖИМ — РАЗМЕР ЦИФР ЧАСОВ */
+@media (orientation: landscape) {
+    #clock {
+        font-size: 10rem;
+    }
+
+    #seconds {
+        font-size: 0.6em;
+    }
+}
+/* Телефон: вертикальное положение */
 @media (max-width: 800px) and (orientation: portrait) {
     :root {
         --date-size: 2.5rem;
